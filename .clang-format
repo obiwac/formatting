@@ -13,7 +13,7 @@ AlignArrayOfStructures: Right
 
 # For alignment, there's a bit of a tradeoff between readability and diff size.
 # For all assignments, I think this would be obnoxious, which is why they're disabled.
-# But for switch cases and bitfields, which are rarer and (at least for bitfields) are less likely to provide valuable information in e.g. a blame, I think readability trumps. 
+# But for switch cases and bitfields, which are rarer and (at least for bitfields) are less likely to provide valuable information in e.g. a blame, I think readability trumps.
 # TODO Same argument for enums, but unfortunately, clang-format lumps those in with assignments at the moment, so we have to disable that for now: https://github.com/llvm/llvm-project/issues/52983
 # TODO As for alignment after open brackets, this seems to be a bit of a mess: https://github.com/llvm/llvm-project/issues/80049
 
@@ -149,10 +149,10 @@ SpaceAroundPointerQualifiers: Default
 
 # TODO Which ones are used in Linux/FreeBSD?
 
-ForEachMacros: ['FOREACH']
+ForEachMacros: ["FOREACH"]
 IfMacros: []
-MacroBlockBegin: ''
-MacroBlockEnd: ''
+MacroBlockBegin: ""
+MacroBlockEnd: ""
 Macros: [] # clang-format 17
 SkipMacroDefinitionBody: false # clang-format 18
 StatementAttributeLikeMacros: []
