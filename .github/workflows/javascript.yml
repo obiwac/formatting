@@ -10,3 +10,4 @@ jobs:
       - uses: creyD/prettier_action@v4.3
         with:
           dry: true
+          prettier_options: "**/*.js **/*.ts"
