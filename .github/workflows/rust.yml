@@ -8,3 +8,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions-rust-lang/rustfmt@v1
+        with:
+          manifest-path: src/rs/Cargo.toml
