@@ -3,6 +3,7 @@
 
 # My personal opinion on what a good-ish style for C is, based on at least some amount of reason (sometimes) ;)
 # This forgoes a lot of the C++/ObjC-specific stuff, simply because I practically don't ever write C++/ObjC.
+# A lot of the reasoning centers around minimizing the number of lines changed in a diff when code is modified.
 
 BasedOnStyle: WebKit
 Language: Cpp # This is also for C.
