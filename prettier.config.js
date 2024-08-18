@@ -15,3 +15,5 @@ const config = {
 	proseWrap: "never",
 	endOfLine: "lf",
 }
+
+module.exports = config
